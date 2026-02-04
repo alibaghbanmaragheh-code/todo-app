@@ -57,7 +57,6 @@ class Register extends StatelessWidget {
             children: [
               SizedBox(height: 40),
               Column(
-            
                 children: [
                   TextField(
                     cursorOpacityAnimates: false,
@@ -66,7 +65,7 @@ class Register extends StatelessWidget {
                       iconColor: Colors.blueGrey,
                       fillColor: Colors.black26,
                       label: Text(
-                        "name:example(ali)",
+                        "name:example(Ali)",
                         style: TextStyle(
                           fontSize: 30,
                           fontStyle: FontStyle.italic,
